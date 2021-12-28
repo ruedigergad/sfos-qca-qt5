@@ -19,6 +19,7 @@ PkgConfigBR:
 PkgBR:
     - ca-certificates
     - cmake
+    - doxygen
 Requires:
     - ca-certificates
 SetupOptions: -q -n %{name}-%{version}/qca

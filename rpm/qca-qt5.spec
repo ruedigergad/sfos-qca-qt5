@@ -25,6 +25,7 @@ BuildRequires:  pkgconfig(Qt5Network)
 BuildRequires:  pkgconfig(openssl)
 BuildRequires:  ca-certificates
 BuildRequires:  cmake
+BuildRequires:  doxygen
 
 %description
 The Qt Cryptographic Architecture (QCA) provides a straightforward and cross-
