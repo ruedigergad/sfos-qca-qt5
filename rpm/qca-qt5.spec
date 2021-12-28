@@ -55,7 +55,7 @@ Qt Cryptographic Architecture.
 
 %build
 # >> build pre
-%cmake -D BUILD_TESTS:BOOL=OFF -D QCA_INSTALL_IN_QT_PREFIX:BOOL=ON .
+%cmake -D BUILD_TESTS=OFF -D QCA_INSTALL_IN_QT_PREFIX=ON .
 # sed -i -e /strip/d Makefile
 # << build pre
 
@@ -92,7 +92,7 @@ rm -rf %{buildroot}
 %files devel
 %defattr(-,root,root,-)
 # >> files devel
-%{_includedir}/qt5/QtCrypto
+%{_includedir}/qt5/Qca-qt5/QtCrypto
 %{_libdir}/pkgconfig/qca2-qt5.pc
 %{_datadir}/qt5/mkspecs/features/crypto.prf
 # << files devel
