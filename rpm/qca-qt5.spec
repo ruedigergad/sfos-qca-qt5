@@ -9,7 +9,7 @@ Name:       qca-qt5
 # << macros
 
 Summary:    Qt Cryptographic Architecture
-Version:    2.3.1
+Version:    2.2.1
 Release:    1
 Group:      System/Libraries
 License:    LGPLv2+
