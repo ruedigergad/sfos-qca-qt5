@@ -82,6 +82,7 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 # >> files
 %doc COPYING README TODO
+%{_libdir}/qt5/bin/mozcerts-*
 %{_libdir}/qt5/bin/qcatool-*
 %{_libdir}/libqca-qt5.so.*
 %{_libdir}/libqca-qt5.so
@@ -93,6 +94,7 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 # >> files devel
 %{_includedir}/qt5/Qca-qt5/QtCrypto
+%{_libdir}/cmake/Qca-qt5/*
 %{_libdir}/pkgconfig/qca2-qt5.pc
 %{_datadir}/qt5/mkspecs/features/crypto.prf
 # << files devel
